@@ -167,7 +167,7 @@ class MainActivity : AppCompatActivity() {
         startW *= newStar.scaleX
         starH *= newStar.scaleY
 
-        newStar.translationX = Math.random().toFloat() * containerW - startW / 2
+        newStar.translationX = Math.random().toFloat() * containerW - startW
 
         val mover: ObjectAnimator = ObjectAnimator.ofFloat(
             newStar,
